@@ -102,3 +102,18 @@ iframe {
 }
 
 /* subititulo*/
+.subtitulo{
+  font-family: 'Rubik:ital';
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  font-style: italic;
+  margin-top: 70px;
+}
+
+.paragrafo-2 {
+  font-family: 'Rubik';
+  text-align: center;
+  font-size: 25px;
+  color: #f1f3ec;
+}
