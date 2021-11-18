@@ -54,14 +54,15 @@ span {
 .video-do-youtube {
   width: 1280px;
   height: 720px;
-  position: relative;
+  
 }
 
 iframe {
-  position: absolutere;
-  left: 100px;
+  left: 3px;
   right: 0px;
+  position:relative;
 }
+
 
 /* botão youtube*/
 .botão-youtube {
