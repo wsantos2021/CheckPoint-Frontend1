@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Point-II</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1>Cadastro</h1>
+
+    <form action="/cadastrar" name="cadastro-usuario" method="post">
+        <fieldset form="cadastro-usuario">
+            <!--um grupo/conjunto de campos-->
+            <legend>Dados Pessoais</legend>
+
+            <div>
+                <label for="nome"><b>Nome:</b></label>
+                <input type="text" maxlength="100" name="nome" class="nome" id="nome" placeholder="Insira o nome">
+            </div>
+
+            <div>
+                <label for="email"><b>Email:</b></label>
+                <input type="email" name="email" class="email" id="email" placeholder="Insira seu email">
+            </div>
+
+            <div>
+                <label for="telefone"><b>Telefone:</b></label>
+                <input type="number" name="telefone" class="tel" id="telefone" placeholder="Digite seu telefone">
+            </div>
+
+            <div>
+                <label for="idade"><b>Idade:</b></label>
+                <input type="number" name="idade" class="idade" id="idade" placeholder="Insira sua idade">
+            </div>
+
+            <div>
+                <label for="nasc"><b>Nascimento:</b></label>
+                <input type="date" name="nasc" class="nascimento" id="nasc" min="1931-01-01">
+            </div>
+
+            <div class="maioridade">
+                <b><label for="maioridade">+18 anos?:</label></b>
+                   <input type="radio" name="maioridade" value="Sim">Sim
+                   <input type="radio" name="maioridade" value="Não" checked>Não
+            </div>
+
+        </fieldset>
+
+        
+        <form action="/interesses"></form>
+        <fieldset form="Interesses-usuario">
+            <legend>Interesses</legend>
+            <div>
+                <label for="procuro por"><b>Procuro por:</b></label>
+                <select name="procuro por" id="procuro por">
+                <option value="0">Bares e Restaurantes</option>
+                <option value="1">Praias</option>
+                <option value="2">Museus</option>
+                <option value="3">Teatros</option>
+                <option value="3">Igrejas</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="/interesses"><b>Escolha seus interesses:</b></label>
+            
+                <input type="checkbox" id="turista" name="turista" value="turista">
+                <label for="turista">Turista</label>
+            
+                <input type="checkbox" id="residente" name="residente" value="residente">
+                <label for="residente">Residente</label>
+
+                <input type="checkbox" id="estudante" name="estudante" value="estudante">
+                <label for="estudante">Estudante</label>
+
+                <input type="checkbox" id="nenhum" name="nenhum" value="nenhum">
+                <label for="nenhum">Nenhum</label>
+
+            </div>
+        </fieldset>
+
+        <div class="buttons-div">
+            <button type="reset">Limpar</button>
+            <button type="submit">Cadastrar</button>
+        </div>
+
+
+
+    </form>
+
+</body>
+
+</html>
