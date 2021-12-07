@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: rgb(227, 245, 243);
+    margin: 0;
+    font-family: "Libre+Braskerville" Bold, monospace;
+}
+
+h1 {
+    margin: 20px;
+    color: darkgoldenrod;
+    text-align: center;
+}
+
+fieldset {
+    margin: 10px;
+    border: 4px yellowgreen solid;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+#nome {
+    width: 250px; 
+}
+
+.nome:hover {
+    color: rgb(26, 172, 26);
+    font-size: 20px;
+    background-color: rgb(243, 242, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nome {
+    border-radius: 5px;
+}
+
+#email {
+    width: 200px;
+}
+
+.email:hover {
+    color: rgb(26, 172, 26);
+    font-size: 20px;
+    background-color: rgb(243, 242, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.email {
+    border-radius: 5px;
+}
+
+.tel:hover {
+    color: rgb(26, 172, 26);
+    font-size: 20px;
+    background-color: rgb(243, 242, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tel {
+    border-radius: 5px;
+}
+
+.idade:hover {
+    color: rgb(26, 172, 26);
+    font-size: 20px;
+    background-color: rgb(243, 242, 169);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.idade {
+    border-radius: 5px;
+}
+
+legend {
+    color: rgb(141, 60, 233);
+    font-size: 20px;
+    padding: 10px;
+}
+
+div {
+    margin: 10px;
+}
+
+#txtbox {
+    height: 40px;
+    width: 100px;
+}
+
+.maioridade {
+    margin-top: 20px;
+    
+    
+}
+
+button {
+    padding: 15px;
+    margin: 10px;
+    background-color: yellowgreen;
+    color: white;
+    font-size: 15px;
+    border: 0;
+    border-radius: 10px;
+    font-family: Verdana;
+    
+}
+
+.buttons-div {
+    text-align: center;
+/*float: right;*/
+
+}
+
+button:hover {
+   background-color: darkgoldenrod;
+   color: rgb(236, 236, 236);
+   transition-duration: 2.0s;
+}
